@@ -1,0 +1,282 @@
+<section class="safe-hands-{{ section.id }}">
+  <div class="safe-hands-wrapper page-width">
+    <div class="safe-hands-info">
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.details }}</p>
+    </div>
+    <div class="safe-hands-row">
+      {% for block in section.blocks %}
+        <div class="safe-hands-col safe-hands-col-{{ forloop.index }}">
+          {% if block.settings.video != blank %}
+            <div class="video-container">
+            <video class="cust_video cust_video_auto" width="100%" height="auto" autoplay="false" loop="true" controls="false" playsinline="" muted="false" data-src-all="image" 
+              src="{{ block.settings.video }}">
+             </video>
+             <img class="play-pause-icon" src="https://cdn.shopify.com/s/files/1/0890/8265/9139/files/Trigger.svg?v=1724378084" alt="Play/Pause Icon">
+            </div>
+          {% else %}
+            <img src="{{ block.settings.img | img_url: 'master' }}">
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .safe-hands-{{ section.id }}{
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+  }
+  .safe-hands-info{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .safe-hands-info h2{
+    color: #02010F;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+ .safe-hands-info p{
+   max-width: 586px;
+   margin: 0 auto;
+   padding: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: center;
+  }
+  .safe-hands-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .video-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.cust_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+
+  
+  @media(min-width: 750px){
+   .safe-hands-row .safe-hands-col-1{
+      flex: 46%;
+      max-width: 46%;
+      padding-bottom: 20px;
+    }
+    .safe-hands-row .safe-hands-col-2{
+      flex: 25%;
+      max-width: 25%;
+      padding-bottom: 20px;
+    }
+    .safe-hands-row .safe-hands-col-3{
+      flex: 25%;
+      max-width: 25%;
+      padding-bottom: 20px;
+    }
+    .safe-hands-row .safe-hands-col-4{
+      flex: 49%;
+      max-width: 49%;
+      padding-bottom: 20px;
+    }
+    .safe-hands-row .safe-hands-col-5{
+      flex: 49%;
+      max-width: 49%;
+      padding-bottom: 20px;
+    }
+    .safe-hands-row .safe-hands-col img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+    .safe-hands-row .safe-hands-col video{
+      width: 100%;
+     height: 100%;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+    .video-container img.play-pause-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 10;
+}
+  }
+   @media(max-width: 749px){
+    .safe-hands-{{ section.id }}{
+      padding-top: {{ section.settings.mob-padding-top }}px;
+      padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+     .safe-hands-row .safe-hands-col{
+       max-width: 100%;
+       flex: 100%;
+       column-gap: 8px;
+     }
+     .safe-hands-info h2{
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 28.8px;
+     text-align: center;
+     }
+     .safe-hands-info p{
+       max-width: 295px;
+       margin: 0 auto;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 22.4px;
+       text-align: center;
+     }
+     .safe-hands-row .safe-hands-col img{
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+    .safe-hands-row .safe-hands-col video{
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+    }
+     .video-container img.play-pause-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 10;
+}
+   }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  var videos = document.querySelectorAll('.video-container');
+
+  videos.forEach(function (container) {
+    var video = container.querySelector('.cust_video');
+    var icon = container.querySelector('.play-pause-icon');
+
+    icon.addEventListener('click', function () {
+      if (video.paused) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+  });
+});
+
+</script>
+
+{% schema %}
+  {
+    "name": "Safe Hands",
+    "max_blocks": 5,
+    "settings": [
+       {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Section Top Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Section Top Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "color",
+         "id": "bg",
+         "label": "Section BG Color",
+         "default": "#F5FBFA"
+       },
+       {
+         "type": "text",
+         "id": "heading",
+         "label": "Heading",
+         "default": "You're in safe hands"
+       },
+       {
+         "type": "text",
+         "id": "details",
+         "label": "Details",
+         "default": "Our expert team of in-house doctors, nurses, dieticians, psychologists  and mentors are here to support you every step of the way"
+       }
+    ],
+    "blocks":[
+      {
+        "type":"guarantee",
+        "name":"Guarantees",
+        "settings":[
+          {
+             "type":"image_picker",
+             "id":"img",
+             "label":"Select Image"
+          },
+          {
+            "type": "url",
+            "id": "video",
+            "label": "Video Link",
+            "info": "Add MP4 Video link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Safe Hands", 
+        "category": "section"
+      }
+    ]
+  }
+{% endschema %}

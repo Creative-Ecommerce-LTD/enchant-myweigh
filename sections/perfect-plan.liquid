@@ -1,0 +1,333 @@
+<section class="perfect-plan-{{ section.id }}">
+  <div class="perfect-plan-wrapper page-width">
+    <div class="perfect-plan-info">
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.details }}</p>
+    </div>
+    <div class="perfect-plans-row">
+      {% for block in section.blocks %}
+        <div class="perfect-plan-col" style="background-color: {{ block.settings.bg }}; color: {{ block.settings.txt }};">
+          <div class="plan-top-info">
+            <p class="subtitle-plan">{{ block.settings.subtitle }}</p>
+            <h3 style="color: {{ block.settings.txt }};">{{ block.settings.price }}<span class="small-info-heading">/month</span></h3>
+            <p class="details-plan">{{ block.settings.details }}</p>
+          </div>
+          <div class="plan-advantages">
+            <div class="advantage-row">
+              <img src="{{ block.settings.icon | img_url: 'master' }}">
+              <p>{{ block.settings.advantage-1 }}</p>
+            </div>
+            <div class="advantage-row">
+              <img src="{{ block.settings.icon | img_url: 'master' }}">
+              <p>{{ block.settings.advantage-2 }}</p>
+            </div>
+            <div class="advantage-row">
+              <img src="{{ block.settings.icon | img_url: 'master' }}">
+              <p>{{ block.settings.advantage-3 }}</p>
+            </div>
+          </div>
+          <div class="plan-btn-wrapper">
+            <a href="{{ block.settings.link }}" style="background-color: {{ block.settings.txt }}; color: {{ block.settings.btn-clr }}">{{ block.settings.btn }}</a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .perfect-plan-{{ section.id }}{
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+  }
+  .perfect-plan-info{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .perfect-plan-info h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+  }
+  .perfect-plan-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .perfect-plans-row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .perfect-plan-col{
+    max-width: 32%;
+    flex: 32%;
+    text-align: left;
+    border-radius: 12px;
+    padding: 32px;
+  }
+  .plan-top-info{
+    padding-bottom: 15px;
+  }
+  p.subtitle-plan{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+  }
+  .plan-top-info h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .small-info-heading{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  p.details-plan{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+        padding: 0;
+        padding-bottom: 8px;
+  }
+  .plan-advantages{
+    padding-bottom: 20px;
+  }
+  .advantage-row{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding-bottom: 5px;
+  }
+  .advantage-row img{
+    max-width: 20px;
+    height: auto;
+  }
+  .advantage-row p{
+    max-width: calc(100% - 12px);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  .plan-btn-wrapper{
+    width: 100%;
+    
+  }
+  .plan-btn-wrapper a{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  @media(max-width: 749px){
+    .perfect-plan-{{ section.id }}{
+     padding-top: {{ section.settings.mob-padding-top }}px;
+    padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+    .perfect-plan-info h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+  .perfect-plan-info p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+    .perfect-plan-col{
+      flex: 100%;
+      max-width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Perfect Plan",
+    "settings": [
+      {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Section Top Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Section Top Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "color",
+         "id": "bg",
+         "label": "Section BG Color",
+         "default": "#CCE4EB"
+       },
+       {
+         "type": "text",
+         "id": "heading",
+         "label": "Heading",
+         "default": "Pick your perfect plan"
+       },
+       {
+         "type": "text",
+         "id": "details",
+         "label": "Details",
+         "default": "Find the perfect plan for you with our flexible pricing options"
+       }
+    ],
+      "blocks":[
+        {
+          "type":"plan",
+          "name":"Plan",
+          "settings":[
+            {
+              "type": "color",
+              "id": "bg",
+              "label": "Column Background Color",
+              "default": "#0D64FF"
+            },
+            {
+              "type": "color",
+              "id": "txt",
+              "label": "Column Text Color",
+              "default": "#fff"
+            },
+            {
+              "type": "text",
+              "id": "subtitle",
+              "label": "Subtitle",
+              "default": "AI Coach + Medication"
+            },
+            {
+              "type": "text",
+              "id": "price",
+              "label": "Price",
+              "default": "£499"
+            },
+            {
+              "type": "text",
+              "id": "details",
+              "label": "Details",
+              "default": "Your final treatment & plan will be decided by our prescribers"
+            },
+            {
+              "type": "text",
+              "id": "advantage-1",
+              "label": "Advantage One",
+              "default": "Doctor consultation Included"
+            },
+            {
+              "type": "text",
+              "id": "advantage-2",
+              "label": "Advantage Two",
+              "default": "24/7 Support"
+            },
+            {
+              "type": "text",
+              "id": "advantage-3",
+              "label": "Advantage Two",
+              "default": "Access to specialist video content"
+            },
+            {
+              "type": "image_picker",
+              "id": "icon",
+              "label": "Advantages Icon"
+            },
+            {
+              "type": "text",
+              "id": "btn",
+              "label": "Button Label",
+              "default": "Start your consultation"
+            },
+            {
+              "type": "url",
+              "id": "link",
+              "label": "Button Link"
+            },
+            {
+              "type": "color",
+              "id": "btn-clr",
+              "label": "Button Text Color"
+            }
+          ]
+        }
+      ],
+    "presets": [
+      {
+        "name": "Perfect Plan", 
+        "category": "section"
+      }
+    ]
+  }
+{% endschema %}

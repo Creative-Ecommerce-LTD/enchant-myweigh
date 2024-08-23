@@ -1,0 +1,228 @@
+<section class="img-with-txt-{{ section.id }}">
+  <div class="img-with-txt-wrapper page-width">
+    <div class="img-with-txt-row">
+      <div class="info-col-details">
+        <h2>{{ section.settings.heading }}</h2>
+        {{ section.settings.details }}
+        <div class="img-with-txt-btn">
+          <a href="{{ section.settings.link }}">{{ section.settings.btn }}</a>
+        </div>
+      </div>
+      <div class="img-col-details">
+        <img class="desktop-img-new" src="{{ section.settings.img | img_url: 'master' }}">
+        {% if section.settings.mob-img != blank %}
+          <img class="mob-img-new" src="{{ section.settings.mob-img | img_url: 'master' }}">
+        {% else %}
+          <img class="mob-img-new" src="{{ section.settings.img | img_url: 'master' }}">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .img-with-txt-{{ section.id }}{
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+  }
+  .img-with-txt-row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .info-col-details{
+    flex: 48%;
+    max-width: 48%;
+    text-align: left;
+  }
+  .info-col-details h2{
+    color: #02010F;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    max-width: 545px;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+ .info-col-details p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+   max-width: 545px;
+    color: #02010F;
+   margin: 0;
+  }
+  .img-with-txt-btn{
+    padding-top: 20px;
+    text-align: left;
+  }
+  .img-with-txt-btn a{
+    padding: 14px 32px;
+    color: #fff;
+    background-color: #00080F;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+  }
+  .img-col-details{
+    flex: 48%;
+    max-width: 48%;
+  }
+  .img-col-details img{
+    width: 100%;
+    height: auto;
+  }
+  @media(min-width: 750px){
+    .mob-img-new{
+      display: none;
+    }
+  }
+@media(max-width: 749px){
+    .img-with-txt-{{ section.id }}{
+    padding-top: {{ section.settings.mob-padding-top }}px;
+    padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+  .info-col-details{
+    flex: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+  .img-col-details{
+    flex: 100%;
+    max-width: 100%;
+  }
+  .info-col-details h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+  }
+  .info-col-details p{
+font-size: 16px;
+font-weight: 400;
+line-height: 27.2px;
+text-align: left;
+
+  }
+  .desktop-img-new{
+    display: none;
+  }
+  .img-with-txt-btn{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .img-with-txt-btn a{
+    width: 100%;
+  }
+  }
+</style>
+{% schema %}
+  {
+    "name": "Image with Info",
+    "settings": [
+      {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Section Top Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Section Top Padding",
+         "default": 40,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 40,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "color",
+         "id": "bg",
+         "label": "Section BG Color",
+         "default": "#fff"
+       },
+       {
+         "type": "header",
+         "content": "Info Column"
+       },
+       {
+         "type": "text",
+         "id": "heading",
+         "label": "Heading",
+         "default": "Find a better way, with Norvana"
+       },
+       {
+         "type": "richtext",
+         "id": "details",
+         "label": "Details",
+         "default": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.</p>"
+       },
+       {
+         "type": "text",
+         "id": "btn",
+         "label": "Button Label",
+         "default": "Check eligibility"
+       },
+       {
+         "type": "url",
+         "id": "link",
+         "label": "Button Link"
+       },
+       {
+         "type": "header",
+         "content": "Image Column"
+       },
+       {
+         "type": "image_picker",
+         "id": "img",
+         "label": "Image"
+       },
+       {
+         "type": "image_picker",
+         "id": "mob-img",
+         "label": "Mobile Image"
+       }
+    ],
+    "presets": [
+      {
+        "name": "Image with Info", 
+        "category": "section"
+      }
+    ]
+  }
+{% endschema %}

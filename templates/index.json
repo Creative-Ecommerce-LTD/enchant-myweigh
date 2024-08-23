@@ -1,1 +1,318 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h0"}},"button":{"type":"buttons","settings":{"button_label_1":"Shop all","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"settings":{"image_overlay_opacity":40,"image_height":"large","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"scheme-3","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"scheme-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}}},"order":["image_banner","featured_collection"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+    "sections": {
+      "media_with_info_aViXGg": {
+        "type": "media-with-info",
+        "settings": {
+          "padding-top": 70,
+          "padding-bottom": 70,
+          "mob-padding-top": 40,
+          "mob-padding-bottom": 20,
+          "bg": "#f2fcff",
+          "subtitle": "Feel better with your body",
+          "heading": "Start to take care of yourself, at your pace",
+          "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
+          "btn": "Check eligibility",
+          "link": "",
+          "img-1": "shopify:\/\/shop_images\/card_1.png",
+          "img-2": "shopify:\/\/shop_images\/card_2.png",
+          "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/423513a6fb4247cda5a115a3e7673496.mp4"
+        }
+      },
+      "image_banner": {
+        "type": "image-banner",
+        "blocks": {
+          "heading": {
+            "type": "heading",
+            "settings": {
+              "heading": "Browse our latest products",
+              "heading_size": "h0"
+            }
+          },
+          "button": {
+            "type": "buttons",
+            "settings": {
+              "button_label_1": "Shop all",
+              "button_link_1": "shopify:\/\/collections\/all",
+              "button_style_secondary_1": true,
+              "button_label_2": "",
+              "button_link_2": "",
+              "button_style_secondary_2": false
+            }
+          }
+        },
+        "block_order": [
+          "heading",
+          "button"
+        ],
+        "disabled": true,
+        "settings": {
+          "image_overlay_opacity": 40,
+          "image_height": "large",
+          "desktop_content_position": "bottom-center",
+          "show_text_box": false,
+          "desktop_content_alignment": "center",
+          "color_scheme": "scheme-3",
+          "image_behavior": "none",
+          "mobile_content_alignment": "center",
+          "stack_images_on_mobile": false,
+          "show_text_below": false
+        }
+      },
+      "narvana_features_f3rxyT": {
+        "type": "narvana-features",
+        "blocks": {
+          "feature_4AabPg": {
+            "type": "feature",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/Background.svg",
+              "heading": "15-20%",
+              "details": "<p>Patients using Norvana medication have experienced significant weight loss, averaging 15-20% of their body weight<\/p>"
+            }
+          },
+          "feature_XMxiP8": {
+            "type": "feature",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/Background_1.svg",
+              "heading": "AI Coaching",
+              "details": "<p>Experience personalized AI coaching for better results. Our advanced AI system tailors workouts, nutrition plans<\/p>"
+            }
+          },
+          "feature_BiJVJN": {
+            "type": "feature",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/Background_2.svg",
+              "heading": "Fitness & Nutrition",
+              "details": "<p>Our holistic program is not limited to weight management, but designs the best nutrition and fitness plans for you<\/p>"
+            }
+          },
+          "feature_z6BciB": {
+            "type": "feature",
+            "settings": {
+              "icon": "shopify:\/\/shop_images\/Background_3.svg",
+              "heading": "Patient Care",
+              "details": "<p>Medically backed medication and advice. Our approach is grounded in scientific research and clinical expertise<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "feature_4AabPg",
+          "feature_XMxiP8",
+          "feature_BiJVJN",
+          "feature_z6BciB"
+        ],
+        "settings": {
+          "padding-top": 70,
+          "padding-bottom": 70,
+          "mob-padding-top": 40,
+          "mob-padding-bottom": 40,
+          "bg": "#ffffff"
+        }
+      },
+      "norvana_img_with_text_ktNE4X": {
+        "type": "norvana-img-with-text",
+        "settings": {
+          "padding-top": 50,
+          "padding-bottom": 50,
+          "mob-padding-top": 10,
+          "mob-padding-bottom": 20,
+          "bg": "#ffffff",
+          "heading": "Find a better way, with Norvana",
+          "details": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.<\/p>",
+          "btn": "Check eligibility",
+          "link": "",
+          "img": "shopify:\/\/shop_images\/Frame_1000004443.png",
+          "mob-img": "shopify:\/\/shop_images\/Frame_1000004443_1.png"
+        }
+      },
+      "perfect_plan_Ha4hCE": {
+        "type": "perfect-plan",
+        "blocks": {
+          "plan_XWGAPA": {
+            "type": "plan",
+            "settings": {
+              "bg": "#0d64ff",
+              "txt": "#ffffff",
+              "subtitle": "AI Coach + Medication",
+              "price": "£499",
+              "details": "Your final treatment & plan will be decided by our prescribers",
+              "advantage-1": "Doctor consultation Included",
+              "advantage-2": "24\/7 Support",
+              "advantage-3": "Access to specialist video content",
+              "icon": "shopify:\/\/shop_images\/white-check.png",
+              "btn": "Start your consultation",
+              "link": "",
+              "btn-clr": "#121212"
+            }
+          },
+          "plan_JL97nH": {
+            "type": "plan",
+            "settings": {
+              "bg": "#0d9e3e",
+              "txt": "#ffffff",
+              "subtitle": "AI Coach + Medication",
+              "price": "£309",
+              "details": "Your final treatment & plan will be decided by our prescribers",
+              "advantage-1": "Doctor consultation Included",
+              "advantage-2": "24\/7 Support",
+              "advantage-3": "Access to specialist video content",
+              "icon": "shopify:\/\/shop_images\/white-check.png",
+              "btn": "Start your consultation",
+              "link": "",
+              "btn-clr": "#121212"
+            }
+          },
+          "plan_Dc9peN": {
+            "type": "plan",
+            "settings": {
+              "bg": "#ffffff",
+              "txt": "#121212",
+              "subtitle": "AI Coach + Medication",
+              "price": "£499",
+              "details": "Your final treatment & plan will be decided by our prescribers",
+              "advantage-1": "Doctor consultation Included",
+              "advantage-2": "24\/7 Support",
+              "advantage-3": "Access to specialist video content",
+              "icon": "shopify:\/\/shop_images\/black-check.png",
+              "btn": "Start your consultation",
+              "link": "",
+              "btn-clr": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "plan_XWGAPA",
+          "plan_JL97nH",
+          "plan_Dc9peN"
+        ],
+        "settings": {
+          "padding-top": 80,
+          "padding-bottom": 80,
+          "mob-padding-top": 30,
+          "mob-padding-bottom": 30,
+          "bg": "#f5fbfa",
+          "heading": "Pick your perfect plan",
+          "details": "Find the perfect plan for you with our flexible pricing options"
+        }
+      },
+      "your_path_BmYR4x": {
+        "type": "your-path",
+        "blocks": {
+          "path_ixpLGg": {
+            "type": "path",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Frame_1000004446.png",
+              "heading": "Fitness program",
+              "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
+              "reverse": false
+            }
+          },
+          "path_NTnPnW": {
+            "type": "path",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Frame_1000004447.png",
+              "heading": "Fitness program",
+              "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
+              "reverse": true
+            }
+          },
+          "path_tahGxz": {
+            "type": "path",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Frame_1000004447_1.png",
+              "heading": "Fitness program",
+              "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
+              "reverse": true
+            }
+          }
+        },
+        "block_order": [
+          "path_ixpLGg",
+          "path_NTnPnW",
+          "path_tahGxz"
+        ],
+        "settings": {
+          "padding-top": 80,
+          "padding-bottom": 80,
+          "mob-padding-top": 10,
+          "mob-padding-bottom": 10,
+          "bg": "#ffffff",
+          "heading": "Your path to a healthier you",
+          "details": "We use cutting-edge technology to help you achieve your health goals. Our platform integrates AI-driven insights, personalised fitness and nutrition plans, and holistic support to make your wellness journey seamless and effective."
+        }
+      },
+      "safe_hands_8VjW3m": {
+        "type": "safe-hands",
+        "blocks": {
+          "guarantee_nJNX9E": {
+            "type": "guarantee",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/norvana-img.png",
+              "video": ""
+            }
+          },
+          "guarantee_JfHzzQ": {
+            "type": "guarantee",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/medical-direc.png",
+              "video": ""
+            }
+          },
+          "guarantee_WeKJmG": {
+            "type": "guarantee",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/medical-advisor.png",
+              "video": ""
+            }
+          },
+          "guarantee_HFGCfQ": {
+            "type": "guarantee",
+            "settings": {
+              "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9db203b35c514f34b8a8435a805f228b.mp4"
+            }
+          },
+          "guarantee_UggbGh": {
+            "type": "guarantee",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/Frame_1000004465.png",
+              "video": ""
+            }
+          }
+        },
+        "block_order": [
+          "guarantee_nJNX9E",
+          "guarantee_JfHzzQ",
+          "guarantee_WeKJmG",
+          "guarantee_HFGCfQ",
+          "guarantee_UggbGh"
+        ],
+        "settings": {
+          "padding-top": 80,
+          "padding-bottom": 80,
+          "mob-padding-top": 50,
+          "mob-padding-bottom": 50,
+          "bg": "#f5fbfa",
+          "heading": "You're in safe hands",
+          "details": "Our expert team of in-house doctors, nurses, dieticians, psychologists \u2028and mentors are here to support you every step of the way"
+        }
+      }
+    },
+    "order": [
+      "media_with_info_aViXGg",
+      "image_banner",
+      "narvana_features_f3rxyT",
+      "norvana_img_with_text_ktNE4X",
+      "perfect_plan_Ha4hCE",
+      "your_path_BmYR4x",
+      "safe_hands_8VjW3m"
+    ]
+  }
+  

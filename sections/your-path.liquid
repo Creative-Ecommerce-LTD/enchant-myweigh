@@ -1,0 +1,357 @@
+<section class="your-path-{{ section.id }}">
+  <div class="your-path-wrapper page-width">
+    <div class="your-path-row desktop-path-row">
+      <div class="your-path-info-col">
+        <h2>{{ section.settings.heading }}</h2>
+        <p>{{ section.settings.details }}</p>
+      </div>
+      {% for block in section.blocks %}
+      <div class="your-path-img-col">
+        <div class="path-img-txt-row {% if block.settings.reverse %}reverse-col{% endif %}">
+          <div class="path-img-col">
+            <img src="{{ block.settings.img | img_url: 'master' }}">
+          </div>
+          <div class="path-info-col">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.details }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="your-path-row mob-path-row">
+      <div class="your-path-info-col">
+        <h2>{{ section.settings.heading }}</h2>
+        <p>{{ section.settings.details }}</p>
+      </div>
+       <div class="mobile-slider-path-row your-path-slider-{{ section.id }}">
+      {% for block in section.blocks %}
+      <div class="your-path-img-col">
+        <div class="path-img-txt-row">
+          <div class="path-img-col">
+            <img src="{{ block.settings.img | img_url: 'master' }}">
+          </div>
+          <div class="path-info-col">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.details }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+       </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .your-path-{{ section.id }}{
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+  }
+  
+  @media(min-width: 750px){
+    .your-path-row{ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+    .mob-path-row{
+      display: none;
+    }
+    .your-path-info-col{
+      max-width:48%;
+      flex: 48%;
+      padding-bottom: 24px;
+    }
+    .your-path-img-col{
+      max-width:48%;
+      flex: 48%;
+      padding-bottom: 24px;
+    }
+    .your-path-info-col h2{
+      color: #02010F;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-align: left;
+      padding-bottom: 10px;
+      margin: 0;
+      padding: 0;
+    }
+    .your-path-info-col p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 27.2px;
+      text-align: left;
+      color: #00080F;
+    }
+    .path-img-txt-row{
+      display: flex;
+      align-items: stretch;
+      flex-wrap: wrap;
+      border-radius: 16px;
+    }
+    .path-img-txt-row.reverse-col{
+      flex-direction: row-reverse;
+    }
+    .path-img-txt-row.reverse-col .path-img-col img{
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+    .path-img-col{
+      flex: 50%;
+      max-width: 50%;
+    }
+    .path-img-col img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+    .path-img-txt-row.reverse-col .path-info-col{
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+    .path-img-txt-row .path-info-col{
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+    }
+    .path-info-col{
+      flex: 50%;
+      max-width: 50%;
+      padding: 24px;
+      text-align: left;
+      background: #F5FAFB;
+    }
+    .path-info-col h3{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 31.2px;
+      text-align: left;
+      color: #02010F;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 10px;
+    }
+    .path-info-col p{
+      color: #00080F;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      text-align: left;
+    }
+  }
+  @media(max-width: 749px){
+    .your-path-{{ section.id }}{
+    padding-top: {{ section.settings.mob-padding-top }}px;
+    padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+    .desktop-path-row{
+      display: none;
+    }
+    .your-path-row{
+      width: 100%;
+    }
+    .your-path-info-col{
+      padding-bottom: 5px;
+    }
+    .your-path-info-col h2{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 28.8px;
+      text-align: left;
+      padding-bottom: 5px;
+    }
+    .your-path-info-col p{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+      text-align: left;
+    }
+    .your-path-img-col{
+      margin-right: 16px;
+    }
+    .path-img-txt-row{
+      border-radius: 12px;
+    }
+    .path-img-col img{
+      max-height: 200px;
+      width: 100%;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+      display: block;
+    }
+    .path-info-col{
+      background: #F2F5F7;
+      padding: 16px 20px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+   .path-info-col h3{
+     font-size: 18px;
+      font-weight: 500;
+      line-height: 25.2px;
+      text-align: left;
+     margin: 0;
+     padding: 0;
+     padding-bottom: 5px;
+    }
+    .path-info-col p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      text-align: left;
+      margin: 0;
+     padding: 0;
+    }
+  }
+</style>
+
+<script>
+    $(document).ready(function(){
+
+    $('.your-path-slider-{{ section.id }}').slick({
+    dots: false,
+    infinite: false,
+    arrows: false,
+    cssEase: 'linear',
+    speed: 300,
+    slidesToShow: 1.1,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 9999,
+        settings: "unslick"
+      },
+      {
+        breakpoint: 749,
+        settings: {
+          slidesToShow: 1.2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.2,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Your Path",
+    "settings": [
+       {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Section Top Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 80,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Section Top Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "color",
+         "id": "bg",
+         "label": "Section BG Color",
+         "default": "#FFF"
+       },
+       {
+         "type": "text",
+         "id": "heading",
+         "label": "Heading",
+         "default": "Your path to a healthier you"
+       },
+       {
+         "type": "text",
+         "id": "details",
+         "label": "Details",
+         "default": "We use cutting-edge technology to help you achieve your health goals. Our platform integrates AI-driven insights, personalised fitness and nutrition plans, and holistic support to make your wellness journey seamless and effective."
+       }
+    ],
+    "blocks":[
+      {
+        "type":"path",
+        "name":"Path",
+        "settings":[
+          {
+             "type":"image_picker",
+             "id":"img",
+             "label":"Select Image"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Fitness program"
+          },
+          {
+            "type": "richtext",
+            "id": "details",
+            "label": "Details",
+            "default": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level</p>"
+          },
+          {
+            "type": "checkbox",
+            "id": "reverse",
+            "label": "Reverse Column on Desktop",
+            "default": false
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Your Path", 
+        "category": "section"
+      }
+    ]
+  }
+{% endschema %}

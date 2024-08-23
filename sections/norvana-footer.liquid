@@ -1,0 +1,183 @@
+<section class="norvana-footer-{{ section.id }}">
+  <div class="norvana-footer-wrapper page-width">
+    <div class="norvana-footer-row">
+      <div class="norvana-footer-logo-col">
+        <img src="{{ section.settings.logo | img_url: 'master' }}">
+        <p>{{ section.settings.info }}</p>
+      </div>
+      <div class="norvana-footer-menu-col">
+        <div class="norvana-footer-links-row">
+          {%- for link in section.settings.menu.links -%}
+              <a
+                href="{{ link.url }}"
+                class="norvana-footer-link-col"
+              >
+                {{ link.title | escape }}
+              </a>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .norvana-footer-{{ section.id }}{
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+    width: 100%;
+    background-color: {{ section.settings.bg }};
+  }
+  .norvana-footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .norvana-footer-logo-col, .norvana-footer-menu-col{
+    flex: 50%;
+    max-width: 50%;
+  }
+  .norvana-footer-logo-col img{
+    max-width: 236px;
+    height: auto;
+    padding-bottom: 24px;
+  }
+  .norvana-footer-logo-col p{
+   font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    max-width: 236px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .norvana-footer-menu-col .norvana-footer-links-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 40px;
+  }
+  .norvana-footer-menu-col .norvana-footer-links-row a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: #00080F
+  }
+  
+  @media(max-width: 749px){
+    .norvana-footer-{{ section.id }}{
+      padding-top: {{ section.settings.mob-padding-top }}px;
+      padding-bottom: {{ section.settings.mob-padding-bottom }}px;
+    }
+    .norvana-footer-logo-col, .norvana-footer-menu-col{
+    flex: 100%;
+    max-width: 100%;
+      text-align: center;
+  }
+    .norvana-footer-logo-col img{
+      max-width: 158px;
+      margin: 0 auto;
+      padding-bottom: 0px;
+    }
+    .norvana-footer-logo-col p{
+      max-width: 261px;
+      margin: 0 auto;
+     font-size: 16px;
+      font-weight: 400;
+      line-height: 22.4px;
+      text-align: center;
+      padding-top: 24px;
+    }
+    .norvana-footer-menu-col{
+      padding-top: 24px;
+    }
+    .norvana-footer-links-row{
+      flex-direction: column;
+    }
+   .norvana-footer-menu-col .norvana-footer-links-row a{
+      padding: 0px 0px 24px 0px;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Norvana Footer",
+    "settings": [
+       {
+         "type": "range",
+         "id": "padding-top",
+         "label": "Section Top Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 50,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-top",
+         "label": "Section Top Padding",
+         "default": 40,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "range",
+         "id": "mob-padding-bottom",
+         "label": "Section Bottom Padding",
+         "default": 40,
+         "min": 0,
+         "max": 100,
+         "step": 5,
+         "unit": "px"
+       },
+       {
+         "type": "color",
+         "id": "bg",
+         "label": "Section BG Color",
+         "default": "#fff"
+       },
+       {
+         "type": "image_picker",
+         "id": "logo",
+         "label": "Footer Logo"
+       },
+       {
+         "type": "text",
+         "id": "info",
+         "label": "Footer Info",
+         "default": "71-75 Shelton Street, Covent Garden, London, WC2H 9JQ"
+       },
+       {
+         "type": "link_list",
+         "id": "menu",
+         "label": "Footer Menu"
+       }
+    ],
+    "presets": [
+      {
+        "name": "Norvana Footer", 
+        "category": "section"
+      }
+    ]
+  }
+{% endschema %}
