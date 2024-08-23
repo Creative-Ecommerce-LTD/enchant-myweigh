@@ -8,57 +8,105 @@
 * ------------------------------------------------------------
 */
 {
-    "name": "t:sections.header.name",
-    "type": "header",
-    "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "link": ""
-            }
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
           }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "disabled": true,
-        "settings": {
-          "color_scheme": "scheme-1",
-          "show_line_separator": true,
-          "show_social": false,
-          "auto_rotate": false,
-          "change_slides_speed": 5,
-          "enable_country_selector": false,
-          "enable_language_selector": false
         }
       },
-      "header": {
-        "type": "header",
-        "settings": {
-          "logo_position": "middle-left",
-          "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
-          "sticky_header_type": "on-scroll-up",
-          "show_line_separator": true,
-          "color_scheme": "scheme-1",
-          "menu_color_scheme": "scheme-1",
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "enable_customer_avatar": true,
-          "mobile_logo_position": "center",
-          "margin_bottom": 0,
-          "padding_top": 20,
-          "padding_bottom": 20
-        }
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
       }
     },
-    "order": [
-      "announcement-bar",
-      "header"
-    ]
-  }
-  
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "custom_font_nAnMbh": {
+      "type": "custom-font",
+      "blocks": {
+        "image_B9Jjf7": {
+          "type": "image",
+          "settings": {
+            "name": "GroteskNeue-R",
+            "custom_font_weight": "none",
+            "custom_font_style": "none",
+            "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0890\/8265\/9139\/files\/FKGroteskNeueTrial-Regular.otf?v=1724385477",
+            "apply_h1": false,
+            "apply_h2": false,
+            "apply_h3": false,
+            "apply_h4": false,
+            "apply_h5": false,
+            "apply_h6": false,
+            "apply_span": true,
+            "apply_p": true,
+            "apply_custom": "a"
+          }
+        },
+        "image_hKyxU7": {
+          "type": "image",
+          "settings": {
+            "name": "GroteskNeue-B",
+            "custom_font_weight": "none",
+            "custom_font_style": "none",
+            "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0890\/8265\/9139\/files\/FKGroteskNeueTrial-Bold.otf?v=1724385463",
+            "apply_h1": true,
+            "apply_h2": true,
+            "apply_h3": true,
+            "apply_h4": true,
+            "apply_h5": true,
+            "apply_h6": true,
+            "apply_span": false,
+            "apply_p": false,
+            "apply_custom": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B9Jjf7",
+        "image_hKyxU7"
+      ],
+      "settings": {
+        "enable": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "custom_font_nAnMbh"
+  ]
+}
