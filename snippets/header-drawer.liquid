@@ -124,7 +124,18 @@
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">
+            
+            {% if section.settings.enable-account %}
+              <div class="sign-in-btn" style="width: 100%; padding-bottom: 15px; padding-right: 0px;">
+                <a href="/account/login">Sign In</a>
+              </div>
+              <div class="sign-up-btn" style="width: 100%; padding-bottom: 15px; padding-right: 0px;">
+                <a href="/account/register">Sign Up</a>
+              </div>
+            {% endif %}
+            
             {%- if shop.customer_accounts_enabled -%}
+              {%- unless section.settings.enable-account -%}
               <a
                 href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
                 class="menu-drawer__account link focus-inset h5 medium-hide large-up-hide"
@@ -148,6 +159,7 @@
                   endif
                 -%}
               </a>
+              {%- endunless -%}
             {%- endif -%}
             {%- if localization.available_countries or localization.available_languages -%}
               <div class="menu-drawer__localization header-localization">

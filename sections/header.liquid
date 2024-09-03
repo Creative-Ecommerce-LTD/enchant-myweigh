@@ -70,6 +70,107 @@
       padding-top: 0.5rem;
     }
   }
+  
+  {% if section.settings.hide-search %}
+    .header__icon.header__icon--search{
+      display: none;
+    }
+  {% endif %}
+
+  {% if section.settings.hide-cart %}
+    .header__icon.header__icon--cart{
+      display: none;
+    }
+  {% endif %}
+
+  {% if section.settings.enable-account %}
+    .header__icon.header__icon--account{
+      display: none;
+    }
+  {% endif %}
+
+  .sign-in-btn{
+    width: 101px;
+    padding-right: 16px;
+  }
+  .sign-in-btn a{
+    display: inline-block;
+    border: 1.5px solid #00080F;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #00080F;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+  }
+  .sign-up-btn{
+    width: 101px;
+  }
+  .sign-up-btn a{
+    display: inline-block;
+    border: 1.5px solid #00080F;
+    padding: 12px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background: #00080F;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  {% if section.settings.enable-layout %}
+    @media screen and (min-width: 990px) {
+    .header.header--middle-left {
+      grid-template-columns: auto 1fr auto; 
+    }
+    }
+    .header .header__inline-menu{
+      text-align: center;
+    }
+  .header .header__menu-item span {
+    color: #00080F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    }
+    .header .header__menu-item span.header__active-menu-item{
+      text-decoration: none;
+      font-weight: 500;
+    }
+    @media(max-width: 749px){
+      .header {
+          display: grid;
+          grid-template-areas: "heading left-icons";
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+      }
+      header-drawer {
+          justify-self: flex-end;
+          margin-left: -1.2rem;
+      }
+      .header-wrapper .header{
+        padding: 10px 1.5rem 10px 1.5rem
+      }
+      .header__heading-link{
+        padding: .75rem 0rem;
+      }
+    }
+    .header .menu-drawer__utility-links{
+      background: #fff;
+    }
+    .list-menu__item{
+      justify-content: center
+    }
+  {% endif %}
+  
+  
 </style>
 
 {%- style -%}
@@ -292,6 +393,16 @@
           </div>
         {%- endif -%}
       </a>
+
+      {% if section.settings.enable-account %}
+        <div class="sign-in-btn small-hide">
+          <a href="/account/login">Sign In</a>
+        </div>
+        <div class="sign-up-btn small-hide">
+          <a href="/account/register">Sign Up</a>
+        </div>
+      {% endif %}
+      
     </div>
   </header>
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
@@ -609,6 +720,30 @@
       ],
       "default": "center",
       "label": "t:sections.header.settings.mobile_logo_position.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide-search",
+      "label": "Hide Search",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "hide-cart",
+      "label": "Hide Cart",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable-account",
+      "label": "Enable Custom Account Buttons",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable-layout",
+      "label": "Enable Custom Layout",
+      "default": false
     },
     {
       "type": "header",

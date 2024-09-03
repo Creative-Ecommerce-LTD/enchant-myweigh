@@ -50,6 +50,10 @@
         "enable_language_selector": true,
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
+        "hide-search": true,
+        "hide-cart": true,
+        "enable-account": true,
+        "enable-layout": true,
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20

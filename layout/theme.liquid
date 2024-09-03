@@ -31,6 +31,25 @@
     {{ 'slick.css' | asset_url | stylesheet_tag }}
     {{ 'slick-theme.css' | asset_url | stylesheet_tag }}
 
+    {% if template == 'index' %}
+      <style>
+        sticky-header.header-wrapper{
+          background-color: transparent;
+        }
+        .shopify-section-header-sticky{
+          background-color: #fff;
+        }
+        body.new-bg{
+              background: url('https://cdn.shopify.com/s/files/1/0890/8265/9139/files/image_-_2024-09-01T154131.259.png?v=1725219717');
+              background-repeat: no-repeat;
+              background-position: top center;
+        }
+        sticky-header.header-wrapper--border-bottom{
+          border-bottom: 0px;
+        }
+      </style>
+    {% endif %}
+
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
@@ -304,7 +323,7 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %} {% if template == 'index' %}new-bg{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

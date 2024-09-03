@@ -20,7 +20,7 @@
         "subtitle": "Feel better with your body",
         "heading": "Start to take care of yourself, at your pace",
         "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
-        "btn": "Check eligibility",
+        "btn": "Start your journey",
         "link": "",
         "img-1": "shopify:\/\/shop_images\/card_1.png",
         "img-2": "shopify:\/\/shop_images\/card_2.png",
@@ -209,7 +209,7 @@
         "path_ixpLGg": {
           "type": "path",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Frame_1000004446.png",
+            "img": "shopify:\/\/shop_images\/Frame_1000004446_1.png",
             "heading": "Fitness program",
             "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
             "reverse": false
@@ -218,7 +218,7 @@
         "path_NTnPnW": {
           "type": "path",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Frame_1000004447.png",
+            "img": "shopify:\/\/shop_images\/Frame_1000004447_2.png",
             "heading": "Fitness program",
             "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
             "reverse": true
@@ -227,7 +227,7 @@
         "path_tahGxz": {
           "type": "path",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Frame_1000004447_1.png",
+            "img": "shopify:\/\/shop_images\/Frame_1000004447_3.png",
             "heading": "Fitness program",
             "details": "<p>Our fitness program offers customized workout plans designed to fit your lifestyle and fitness level<\/p>",
             "reverse": true
@@ -262,14 +262,14 @@
         "guarantee_JfHzzQ": {
           "type": "guarantee",
           "settings": {
-            "img": "shopify:\/\/shop_images\/medical-direc.png",
+            "img": "shopify:\/\/shop_images\/Frame_1000004459.png",
             "video": ""
           }
         },
         "guarantee_WeKJmG": {
           "type": "guarantee",
           "settings": {
-            "img": "shopify:\/\/shop_images\/medical-advisor.png",
+            "img": "shopify:\/\/shop_images\/Frame_1000004460.png",
             "video": ""
           }
         },
