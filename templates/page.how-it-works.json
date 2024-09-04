@@ -16,104 +16,109 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_TRczAF": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_Yk6taU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_kNrr4P": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_QweYDh": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Yk6taU",
-        "text_kNrr4P",
-        "buttons_QweYDh"
-      ],
+    "norvana_img_with_text_beELV4": {
+      "type": "norvana-img-with-text",
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "heading": "Find a better way, with Norvana",
+        "details": "<p>At Norvana, we're revolutionizing weight management by combining cutting-edge AI technology with the latest medical research. Our approach goes beyond traditional weight loss methods:<\/p>",
+        "btn": "Check eligibility",
+        "link": ""
       }
     },
-    "multirow_Y8JW7r": {
-      "type": "multirow",
+    "multicolumn_46BxkY": {
+      "type": "multicolumn",
       "blocks": {
-        "row_qiznMG": {
-          "type": "row",
+        "column_6Yt3AN": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "<strong>AI-Driven Habit Formation:<\/strong>",
+            "text": "<p>Our innovative AI Weightloss Coach is designed to help you develop lasting healthy habits effortlessly. Instead of relying on short-term willpower, our system guides you towards sustainable lifestyle changes that become second nature.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "row_cceqjb": {
-          "type": "row",
+        "column_4yJt3L": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "title": "Personalized Plans",
+            "text": "<p>Using data-driven insights, we craft tailored nutrition and activity recommendations that adapt to your unique needs, preferences, and progress.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "row_hmxQ6w": {
-          "type": "row",
+        "column_CWCnPn": {
+          "type": "column",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
+            "title": "Comprehensive Support",
+            "text": "<p>For those who may benefit, our Medication Programme offers medically-backed solutions, carefully integrated with our coaching approach.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ryBzP4": {
+          "type": "column",
+          "settings": {
+            "title": "Long-Term Success Focus",
+            "text": "<p>Whether you choose AI coaching, medication, or both, our goal is to empower you with the tools and knowledge for lasting weight management—without the constant struggle of willpower.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rXmKTA": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qxNGHA": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VgfpmY": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "row_qiznMG",
-        "row_cceqjb",
-        "row_hmxQ6w"
+        "column_6Yt3AN",
+        "column_4yJt3L",
+        "column_CWCnPn",
+        "column_ryBzP4",
+        "column_rXmKTA",
+        "column_qxNGHA",
+        "column_VgfpmY"
       ],
       "settings": {
-        "image_height": "small",
-        "desktop_image_width": "small",
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-5",
-        "row_color_scheme": "scheme-2",
-        "mobile_content_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -121,7 +126,7 @@
   },
   "order": [
     "main",
-    "image_banner_TRczAF",
-    "multirow_Y8JW7r"
+    "norvana_img_with_text_beELV4",
+    "multicolumn_46BxkY"
   ]
 }
