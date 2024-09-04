@@ -16,20 +16,6 @@
         "padding_bottom": 28
       }
     },
-    "norvana_img_with_text_beELV4": {
-      "type": "norvana-img-with-text",
-      "settings": {
-        "padding-top": 50,
-        "padding-bottom": 50,
-        "mob-padding-top": 40,
-        "mob-padding-bottom": 40,
-        "bg": "#fff",
-        "heading": "Find a better way, with Norvana",
-        "details": "<p>At Norvana, we're revolutionizing weight management by combining cutting-edge AI technology with the latest medical research. Our approach goes beyond traditional weight loss methods:<\/p>",
-        "btn": "Check eligibility",
-        "link": ""
-      }
-    },
     "multicolumn_46BxkY": {
       "type": "multicolumn",
       "blocks": {
@@ -77,14 +63,14 @@
         "column_ryBzP4"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "At Norvana, we're revolutionizing weight management by combining cutting-edge AI technology with the latest medical research. Our approach goes beyond traditional weight loss methods:",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "circle",
         "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -96,7 +82,6 @@
   },
   "order": [
     "main",
-    "norvana_img_with_text_beELV4",
     "multicolumn_46BxkY"
   ]
 }
