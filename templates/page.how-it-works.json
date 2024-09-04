@@ -36,7 +36,7 @@
         "column_6Yt3AN": {
           "type": "column",
           "settings": {
-            "title": "<strong>AI-Driven Habit Formation:<\/strong>",
+            "title": "<strong>AI-Driven Habit Formation<\/strong>",
             "text": "<p>Our innovative AI Weightloss Coach is designed to help you develop lasting healthy habits effortlessly. Instead of relying on short-term willpower, our system guides you towards sustainable lifestyle changes that become second nature.<\/p>",
             "link_label": "",
             "link": ""
@@ -68,43 +68,13 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_rXmKTA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qxNGHA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VgfpmY": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_6Yt3AN",
         "column_4yJt3L",
         "column_CWCnPn",
-        "column_ryBzP4",
-        "column_rXmKTA",
-        "column_qxNGHA",
-        "column_VgfpmY"
+        "column_ryBzP4"
       ],
       "settings": {
         "title": "Multicolumn",
