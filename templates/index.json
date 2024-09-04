@@ -75,7 +75,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Background.svg",
             "heading": "15-20%",
-            "details": "<p>Patients using Norvana medication have experienced significant weight loss, averaging 15-20% of their body weight<\/p>"
+            "details": "<p>Patients using Norvana medication have experienced significant weight loss, averaging 15-20% of their body weight<\/p>",
+            "bg": "shopify:\/\/shop_images\/Prism14.png"
           }
         },
         "feature_XMxiP8": {
@@ -83,7 +84,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Background_1.svg",
             "heading": "AI Coaching",
-            "details": "<p>Experience personalized AI coaching for better results. Our advanced AI system tailors workouts, nutrition plans<\/p>"
+            "details": "<p>Experience personalized AI coaching for better results. Our advanced AI system tailors workouts, nutrition plans<\/p>",
+            "bg": "shopify:\/\/shop_images\/Prism2.png"
           }
         },
         "feature_BiJVJN": {
@@ -91,7 +93,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Background_2.svg",
             "heading": "Fitness & Nutrition",
-            "details": "<p>Our holistic program is not limited to weight management, but designs the best nutrition and fitness plans for you<\/p>"
+            "details": "<p>Our holistic program is not limited to weight management, but designs the best nutrition and fitness plans for you<\/p>",
+            "bg": "shopify:\/\/shop_images\/Prism14.png"
           }
         },
         "feature_z6BciB": {
@@ -99,7 +102,8 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Background_3.svg",
             "heading": "Patient Care",
-            "details": "<p>Medically backed medication and advice. Our approach is grounded in scientific research and clinical expertise<\/p>"
+            "details": "<p>Medically backed medication and advice. Our approach is grounded in scientific research and clinical expertise<\/p>",
+            "bg": "shopify:\/\/shop_images\/Prism2.png"
           }
         }
       },
