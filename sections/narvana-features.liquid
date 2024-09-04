@@ -2,7 +2,7 @@
   <div class="norvana-features-wrapper page-width">
     <div class="norvana-features-row norvana-features-slider-{{ section.id }}">
       {% for block in section.blocks %}
-        <div class="norvana-features-col">
+        <div class="norvana-features-col" {% if block.settings.bg != blank %}style="background-image: url('{{ block.settings.bg | img_url: 'master' }}'); background-repeat: no-repeat; background-position: top; background-size: cover;"{% endif %}>
           <div class="feature-icon">
             <img src="{{ block.settings.icon | img_url: 'master' }}">
           </div>
@@ -32,22 +32,29 @@
   .norvana-features-col{
     flex: 23%;
     max-width: 23%;
-    background: #00080F;
+    background-color: #00080F;
     text-align: left;
-    padding: 24px;
+    padding: 24px 0px 0px 0px;
     border-radius: 16px;
   }
   .feature-icon{
-    max-width: 52px;
+    width: 100%;
     padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .feature-icon img{
-    width: 100%;
+    width: 52px;
     height: auto;
   }
   .norvana-features-info{
     text-align: left;
-    
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    background-color: #00080F;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
   }
  .norvana-features-info h2{
     margin: 0;
@@ -193,6 +200,11 @@
             "id": "details",
             "label": "Details",
             "default": "<p>Patients using Norvana medication have experienced significant weight loss, averaging 15-20% of their body weight</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "bg",
+            "label": "Column Background"
           }
         ]
       }
