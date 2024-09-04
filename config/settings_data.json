@@ -203,7 +203,7 @@
       "scheme-4bebaeff-1218-4662-b8a2-017d0207f9d5": {
         "settings": {
           "background": "#f2fcff",
-          "background_gradient": "radial-gradient(rgba(137, 143, 239, 1), rgba(120, 196, 245, 1) 100%)",
+          "background_gradient": "radial-gradient(rgba(137, 143, 239, 1), rgba(242, 252, 255, 1) 61.871%, rgba(120, 196, 245, 1) 100%)",
           "text": "#121212",
           "button": "#334fb4",
           "button_label": "#ffffff",
