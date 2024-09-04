@@ -205,7 +205,7 @@
           "background": "#f2fcff",
           "background_gradient": "radial-gradient(rgba(137, 143, 239, 1), rgba(242, 252, 255, 1) 61.871%, rgba(120, 196, 245, 1) 100%)",
           "text": "#121212",
-          "button": "#334fb4",
+          "button": "#f2fcff",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
