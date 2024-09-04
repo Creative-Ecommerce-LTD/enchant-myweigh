@@ -2,7 +2,7 @@
   <div class="norvana-features-wrapper page-width">
     <div class="norvana-features-row norvana-features-slider-{{ section.id }}">
       {% for block in section.blocks %}
-        <div class="norvana-features-col" {% if block.settings.bg != blank %}style="background-image: url('{{ block.settings.bg | img_url: 'master' }}'); background-repeat: no-repeat; background-position: top; background-size: cover;"{% endif %}>
+        <div class="norvana-features-col" {% if block.settings.bg != blank %}style="background-image: url('{{ block.settings.bg | img_url: 'master' }}'); background-repeat: no-repeat; background-position: top center; background-size: contain;"{% endif %}>
           <div class="feature-icon">
             <img src="{{ block.settings.icon | img_url: 'master' }}">
           </div>
