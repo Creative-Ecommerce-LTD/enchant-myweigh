@@ -1,1 +1,45 @@
-{"sections":{"main":{"type":"main-blog","settings":{"layout":"collage","show_image":true,"image_height":"medium","show_date":true,"show_author":false,"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "media_with_info_JPemkp": {
+      "type": "media-with-info",
+      "settings": {
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "subtitle": "Health and wellness tips",
+        "heading": "Regularly updated tips on maintaining a healthy lifestyle.",
+        "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<\/p>",
+        "btn": "",
+        "link": "",
+        "video": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_info_JPemkp"
+  ]
+}
