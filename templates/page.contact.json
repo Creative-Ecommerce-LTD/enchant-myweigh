@@ -21,6 +21,9 @@
     },
     "form": {
       "type": "contact-form",
+      "custom_css": [
+        "div.field {border-radius: 20px;}"
+      ],
       "settings": {
         "heading": "Get in Touch",
         "heading_size": "h1",
@@ -74,6 +77,9 @@
         "collapsible_row_EVQJ63",
         "collapsible_row_M9qV3n",
         "collapsible_row_GhgDEA"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "caption": "",

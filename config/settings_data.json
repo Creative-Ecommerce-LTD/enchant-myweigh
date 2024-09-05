@@ -419,7 +419,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".input {border-radius: 20 px;}"
+      "#ContactForm {border-radius: 20 px;}"
     ]
   }
 }
