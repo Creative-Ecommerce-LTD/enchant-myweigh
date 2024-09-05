@@ -15,8 +15,8 @@
         "H1 {display: none;}"
       ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "form": {
