@@ -26,6 +26,10 @@
     },
     "media_with_info_JPemkp": {
       "type": "media-with-info",
+      "custom_css": [
+        "img {display: none;}",
+        "video {display: none;}"
+      ],
       "settings": {
         "padding-top": 50,
         "padding-bottom": 50,
