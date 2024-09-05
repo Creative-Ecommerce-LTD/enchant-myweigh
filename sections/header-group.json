@@ -50,10 +50,10 @@
         "enable_language_selector": true,
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
-        "hide-search": true,
-        "hide-cart": true,
-        "enable-account": true,
-        "enable-layout": true,
+        "hide-search": false,
+        "hide-cart": false,
+        "enable-account": false,
+        "enable-layout": false,
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
@@ -106,11 +106,28 @@
       "settings": {
         "enable": true
       }
+    },
+    "media_with_info_QbV9eh": {
+      "type": "media-with-info",
+      "settings": {
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "subtitle": "Feel better with your body",
+        "heading": "Start to take care of yourself, at your pace",
+        "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
+        "btn": "Check eligibility",
+        "link": "",
+        "video": ""
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "custom_font_nAnMbh"
+    "custom_font_nAnMbh",
+    "media_with_info_QbV9eh"
   ]
 }
