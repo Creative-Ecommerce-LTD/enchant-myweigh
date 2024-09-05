@@ -9,6 +9,24 @@
 */
 {
   "sections": {
+    "media_with_info_aViXGg": {
+      "type": "media-with-info",
+      "settings": {
+        "padding-top": 70,
+        "padding-bottom": 70,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 20,
+        "bg": "#f2fcff",
+        "subtitle": "Feel better with your body",
+        "heading": "Start to take care of yourself, at your pace",
+        "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
+        "btn": "Start your journey",
+        "link": "",
+        "img-1": "shopify:\/\/shop_images\/card_1.png",
+        "img-2": "shopify:\/\/shop_images\/card_2.png",
+        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/423513a6fb4247cda5a115a3e7673496.mp4"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -291,6 +309,7 @@
     }
   },
   "order": [
+    "media_with_info_aViXGg",
     "image_banner",
     "narvana_features_f3rxyT",
     "norvana_img_with_text_ktNE4X",

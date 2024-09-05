@@ -106,28 +106,11 @@
       "settings": {
         "enable": true
       }
-    },
-    "media_with_info_QbV9eh": {
-      "type": "media-with-info",
-      "settings": {
-        "padding-top": 50,
-        "padding-bottom": 50,
-        "mob-padding-top": 40,
-        "mob-padding-bottom": 40,
-        "bg": "#fff",
-        "subtitle": "Health and Wellness Tips",
-        "heading": "Lorem ipsum etc etc",
-        "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
-        "btn": "",
-        "link": "",
-        "video": ""
-      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "custom_font_nAnMbh",
-    "media_with_info_QbV9eh"
+    "custom_font_nAnMbh"
   ]
 }
