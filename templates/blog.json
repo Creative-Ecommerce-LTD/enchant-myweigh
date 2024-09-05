@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        "div {display: none;}"
+      ],
       "settings": {
         "layout": "collage",
         "show_image": true,
@@ -28,7 +31,7 @@
         "padding-bottom": 50,
         "mob-padding-top": 40,
         "mob-padding-bottom": 40,
-        "bg": "#fff",
+        "bg": "#ffffff",
         "subtitle": "Health and wellness tips",
         "heading": "Regularly updated tips on maintaining a healthy lifestyle.",
         "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<\/p>",
