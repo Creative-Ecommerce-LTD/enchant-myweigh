@@ -28,7 +28,8 @@
       "type": "media-with-info",
       "custom_css": [
         "img {display: none;}",
-        "video {display: none;}"
+        "video {display: none;}",
+        "button {display: none;}"
       ],
       "settings": {
         "padding-top": 50,
