@@ -21,7 +21,7 @@
         "padding-bottom": 50,
         "mob-padding-top": 40,
         "mob-padding-bottom": 40,
-        "bg": "#ffffff",
+        "bg": "#f2fcff",
         "subtitle": "Health and wellness tips",
         "heading": "Regularly updated tips on maintaining a healthy lifestyle.",
         "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<\/p>",
@@ -48,7 +48,7 @@
     "featured_blog_bbXnLY": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "",
         "heading_size": "h1",
         "blog": "",
         "post_limit": 3,
