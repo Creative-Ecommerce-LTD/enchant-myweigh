@@ -15,9 +15,54 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "norvana_img_with_text_T6jcCx": {
+      "type": "norvana-img-with-text",
+      "settings": {
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "heading": "Find a better way, with Norvana",
+        "details": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.<\/p>",
+        "btn": "",
+        "link": ""
+      }
+    },
+    "norvana_img_with_text_YxA66P": {
+      "type": "norvana-img-with-text",
+      "settings": {
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "heading": "Find a better way, with Norvana",
+        "details": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.<\/p>",
+        "btn": "Check eligibility",
+        "link": ""
+      }
+    },
+    "norvana_img_with_text_DEyRxp": {
+      "type": "norvana-img-with-text",
+      "settings": {
+        "padding-top": 50,
+        "padding-bottom": 50,
+        "mob-padding-top": 40,
+        "mob-padding-bottom": 40,
+        "bg": "#fff",
+        "heading": "Find a better way, with Norvana",
+        "details": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.<\/p>",
+        "btn": "Check eligibility",
+        "link": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "norvana_img_with_text_T6jcCx",
+    "norvana_img_with_text_YxA66P",
+    "norvana_img_with_text_DEyRxp"
   ]
 }
