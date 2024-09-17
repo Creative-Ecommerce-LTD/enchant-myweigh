@@ -30,6 +30,15 @@
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/423513a6fb4247cda5a115a3e7673496.mp4"
       }
     },
+    "custom_liquid_qqgKYk": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01J7ZGQYARWNH2JGMB990W68CG\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_0ccbd887-a2f1-4796-b81b-a865ba908eea": {
       "type": "image-banner",
       "blocks": {
@@ -331,6 +340,7 @@
   },
   "order": [
     "media_with_info_24304ddb-9601-4376-ac3e-2985a211dd48",
+    "custom_liquid_qqgKYk",
     "image_banner_0ccbd887-a2f1-4796-b81b-a865ba908eea",
     "narvana_features_98ac360d-8056-4f06-8df6-963afeb3e6d3",
     "norvana_img_with_text_0b9dc352-7d02-46c1-b120-e7e0b29e313e",
