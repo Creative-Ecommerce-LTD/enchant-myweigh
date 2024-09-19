@@ -193,29 +193,11 @@
             "link": "https:\/\/l0kmx1xx9j6.typeform.com\/to\/P2V0jkZS",
             "btn-clr": "#121212"
           }
-        },
-        "plan_Dc9peN": {
-          "type": "plan",
-          "settings": {
-            "bg": "#ffffff",
-            "txt": "#121212",
-            "subtitle": "AI Coach + Medication",
-            "price": "£499",
-            "details": "Your final treatment & plan will be decided by our prescribers",
-            "advantage-1": "Doctor consultation Included",
-            "advantage-2": "24\/7 Support",
-            "advantage-3": "Access to specialist video content",
-            "icon": "shopify:\/\/shop_images\/black-check.png",
-            "btn": "Start your consultation",
-            "link": "",
-            "btn-clr": "#ffffff"
-          }
         }
       },
       "block_order": [
         "plan_XWGAPA",
-        "plan_JL97nH",
-        "plan_Dc9peN"
+        "plan_JL97nH"
       ],
       "custom_css": [
 
