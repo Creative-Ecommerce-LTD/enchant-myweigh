@@ -24,7 +24,7 @@
         "heading": "Start to take care of yourself, at your pace",
         "details": "<p>Norvana helps you deliver sustainable outcomes, combining the best of science and the best of AI support to get you in shape, solving any problem with your weight and helping you to stay fit overtime<\/p>",
         "btn": "Start your journey",
-        "link": "",
+        "link": "https:\/\/76d8e4-2d.myshopify.com\/pages\/ai-weightloss-information",
         "img-1": "shopify:\/\/shop_images\/card_1.png",
         "img-2": "shopify:\/\/shop_images\/card_2.png",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/423513a6fb4247cda5a115a3e7673496.mp4"
@@ -154,7 +154,7 @@
         "heading": "Find a better way, with Norvana",
         "details": "<p>It's been proven that using a personalised AI Coaches can deliver a sustainable xxx% weightless. Where it's combined with the right medication for eligible customers, the results can be even better with xxxx.<\/p>",
         "btn": "Check eligibility",
-        "link": "",
+        "link": "shopify:\/\/pages\/ai-weightloss-information",
         "img": "shopify:\/\/shop_images\/Frame_1000004443.png"
       }
     },
@@ -174,7 +174,7 @@
             "advantage-3": "Ongoing AI-driven adjustments to your plan.",
             "icon": "shopify:\/\/shop_images\/white-check.png",
             "btn": "Learn more",
-            "link": "https:\/\/l0kmx1xx9j6.typeform.com\/to\/P2V0jkZS",
+            "link": "https:\/\/76d8e4-2d.myshopify.com\/pages\/ai-weightloss-information",
             "btn-clr": "#121212"
           }
         },
@@ -194,28 +194,11 @@
             "link": "https:\/\/l0kmx1xx9j6.typeform.com\/to\/P2V0jkZS",
             "btn-clr": "#121212"
           }
-        },
-        "plan_JkHkX6": {
-          "type": "plan",
-          "settings": {
-            "bg": "#0D64FF",
-            "txt": "#fff",
-            "subtitle": "REMOVE",
-            "price": "",
-            "details": "",
-            "advantage-1": "",
-            "advantage-2": "",
-            "advantage-3": "",
-            "btn": "Start your consultation",
-            "link": "",
-            "btn-clr": ""
-          }
         }
       },
       "block_order": [
         "plan_XWGAPA",
-        "plan_JL97nH",
-        "plan_JkHkX6"
+        "plan_JL97nH"
       ],
       "custom_css": [
 
