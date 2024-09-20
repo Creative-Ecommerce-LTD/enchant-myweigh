@@ -30,7 +30,7 @@
         "text_mrerFH": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to norvana's AI Weightloss Coach, we'll need some information from you to help personalise your plan. Please complete the form below:<\/p>"
+            "text": "<p>Welcome to norvana's AI Weightloss Coach + Medication, we'll need some information from you to help personalise your plan and prescription. Please complete the form below:<\/p>"
           }
         }
       },
