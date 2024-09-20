@@ -109,6 +109,7 @@
     },
     "safe_hands_tVzy4F": {
       "type": "safe-hands",
+      "disabled": true,
       "settings": {
         "padding-top": 80,
         "padding-bottom": 80,
