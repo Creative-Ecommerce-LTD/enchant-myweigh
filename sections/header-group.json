@@ -106,11 +106,24 @@
       "settings": {
         "enable": true
       }
+    },
+    "safe_hands_tVzy4F": {
+      "type": "safe-hands",
+      "settings": {
+        "padding-top": 80,
+        "padding-bottom": 80,
+        "mob-padding-top": 50,
+        "mob-padding-bottom": 50,
+        "bg": "#F5FBFA",
+        "heading": "You are eligible!",
+        "details": "You are just a step away from beginning your weightloss journey. Select a product below to get going."
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "custom_font_nAnMbh"
+    "custom_font_nAnMbh",
+    "safe_hands_tVzy4F"
   ]
 }

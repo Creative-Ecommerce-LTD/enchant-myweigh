@@ -11,6 +11,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -19,9 +20,10 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -29,10 +31,136 @@
         "show_vendor": false,
         "show_rating": false,
         "quick_add": "none",
-        "enable_filtering": true,
+        "enable_filtering": false,
         "filter_type": "horizontal",
-        "enable_sorting": true,
+        "enable_sorting": false,
         "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_9NKWHk": {
+      "type": "featured-product",
+      "blocks": {
+        "title_TCnVyW": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_ncUAfN": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_xm6XWw": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_AyeChi": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_8q9Eeq": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_qMLDBz": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_TCnVyW",
+        "price_ncUAfN",
+        "variant_picker_xm6XWw",
+        "quantity_selector_AyeChi",
+        "buy_buttons_8q9Eeq",
+        "share_qMLDBz"
+      ],
+      "settings": {
+        "product": "ai-medication",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_7PXQ8N": {
+      "type": "featured-product",
+      "blocks": {
+        "title_P8LEYP": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_QimVpa": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_YR9YFW": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_9fgVrY": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_a3YtNP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_m4pqAD": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_P8LEYP",
+        "price_QimVpa",
+        "variant_picker_YR9YFW",
+        "quantity_selector_9fgVrY",
+        "buy_buttons_a3YtNP",
+        "share_m4pqAD"
+      ],
+      "settings": {
+        "product": "mounjaro",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -40,6 +168,8 @@
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "featured_product_9NKWHk",
+    "featured_product_7PXQ8N"
   ]
 }
