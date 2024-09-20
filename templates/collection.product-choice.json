@@ -89,8 +89,8 @@
       ],
       "settings": {
         "product": "ai-medication",
-        "color_scheme": "",
-        "secondary_background": false,
+        "color_scheme": "scheme-3",
+        "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -152,8 +152,8 @@
       ],
       "settings": {
         "product": "mounjaro",
-        "color_scheme": "",
-        "secondary_background": false,
+        "color_scheme": "scheme-3",
+        "secondary_background": true,
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
