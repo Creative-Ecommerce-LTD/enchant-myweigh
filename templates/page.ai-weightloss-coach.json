@@ -11,13 +11,55 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_fcDKcg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EHHx6T": {
+          "type": "heading",
+          "settings": {
+            "heading": "AI Weightloss Coach",
+            "heading_size": "h1"
+          }
+        },
+        "text_mrerFH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Welcome to norvana's AI Weightloss Coach, we'll need some information from you to help personalise your plan. Please complete the form below:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EHHx6T",
+        "text_mrerFH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_aEArwy": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div data-tf-live=\"01J7ZHA45C2B7E7A0CCNT5GT23\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_fcDKcg",
+    "custom_liquid_aEArwy"
   ]
 }
