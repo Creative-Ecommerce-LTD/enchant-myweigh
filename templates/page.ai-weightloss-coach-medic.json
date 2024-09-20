@@ -23,7 +23,7 @@
         "heading_EHHx6T": {
           "type": "heading",
           "settings": {
-            "heading": "AI Weightloss Coach",
+            "heading": "AI Weightloss Coach + Medication",
             "heading_size": "h1"
           }
         },
@@ -50,7 +50,7 @@
     "custom_liquid_aEArwy": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div data-tf-live=\"01J7ZHA45C2B7E7A0CCNT5GT23\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "custom_liquid": "<div data-tf-live=\"01J87G8BTFE01BRKSBDXPMV2FH\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
