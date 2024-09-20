@@ -6,6 +6,9 @@
   text-align: center;
 }
 
+span {
+    font-family: 'Assistant' !important;
+}
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order) {
     max-width: 47.8rem;
