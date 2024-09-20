@@ -32,6 +32,7 @@
     },
     "custom_liquid_qqgKYk": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div data-tf-live=\"01J7ZHA45C2B7E7A0CCNT5GT23\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
         "color_scheme": "",
