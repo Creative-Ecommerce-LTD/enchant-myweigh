@@ -193,11 +193,28 @@
             "link": "https:\/\/l0kmx1xx9j6.typeform.com\/to\/P2V0jkZS",
             "btn-clr": "#121212"
           }
+        },
+        "plan_JkHkX6": {
+          "type": "plan",
+          "settings": {
+            "bg": "#0D64FF",
+            "txt": "#fff",
+            "subtitle": "REMOVE",
+            "price": "",
+            "details": "",
+            "advantage-1": "",
+            "advantage-2": "",
+            "advantage-3": "",
+            "btn": "Start your consultation",
+            "link": "",
+            "btn-clr": ""
+          }
         }
       },
       "block_order": [
         "plan_XWGAPA",
-        "plan_JL97nH"
+        "plan_JL97nH",
+        "plan_JkHkX6"
       ],
       "custom_css": [
 
