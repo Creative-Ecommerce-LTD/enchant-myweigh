@@ -443,7 +443,8 @@
   "platform_customizations": {
     "custom_css": [
       "#ContactForm {border-radius: 20 px;}",
-      "span {font-family: \"Assistant\" !important;}"
+      "span {font-family: \"Assistant\" !important;}",
+      ".media-with-txt-btn a:hover {background: linear-gradient(200deg, #7b8047, #608d65, #539488, #6197a4, #64889f, #4e6a85, #3a4e6b, #283351);}"
     ]
   }
 }
