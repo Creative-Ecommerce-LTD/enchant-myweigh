@@ -117,8 +117,8 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Background_3.svg",
-            "heading": "Patient Care",
-            "details": "<p>Medically backed medication and advice. Our approach is grounded in scientific research and clinical expertise</p>",
+            "heading": "Medically Guided Weight Solutions",
+            "details": "<p>Our programmes are medically backed and guided by healthcare professionals. Our approach is grounded in scientific research and clinical expertise, ensuring safe and effective weight loss solutions.</p>",
             "bg": "shopify://shop_images/Prism2.png"
           }
         }
