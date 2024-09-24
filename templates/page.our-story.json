@@ -25,10 +25,10 @@
         "row_WC4da3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000004446_1.png",
+            "image": "shopify://shop_images/Frame_1000004446_1.png",
             "caption": "",
             "heading": "Our Vision",
-            "text": "<p>At Norvana, our vision is to revolutionise the healthcare industry with the power of artificial intelligence. We strive to provide innovative, personalised weight loss solutions that empower individuals to achieve their health goals. By leveraging cutting-edge AI technology, we aim to make effective weight management accessible to everyone, ensuring a healthier and happier future for all.<\/p>",
+            "text": "<p>At Norvana, our vision is to revolutionise the healthcare industry with the power of artificial intelligence. We strive to provide innovative, personalised weight loss solutions that empower individuals to achieve their health goals. By leveraging cutting-edge AI technology, we aim to make effective weight management accessible to everyone, ensuring a healthier and happier future for all.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -36,10 +36,10 @@
         "row_3Wrpa3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000004447_2.png",
+            "image": "shopify://shop_images/photo_2024-09-24_14-52-59.jpg",
             "caption": "",
             "heading": "The Mission",
-            "text": "<p>Our mission is to deliver comprehensive, AI-driven weight loss programmes that cater to individual needs and lifestyles. We are dedicated to offering safe, effective, and sustainable weight loss solutions through a combination of medication, personalised diet, and fitness plans. Our goal is to support our users every step of the way, fostering long-term health and wellness through innovative technology and compassionate care.<\/p>",
+            "text": "<p>Our mission is to deliver comprehensive, AI-driven weight loss programmes that cater to individual needs and lifestyles. We are dedicated to offering safe, effective, and sustainable weight loss solutions through a combination of medication, personalised diet, and fitness plans. Our goal is to support our users every step of the way, fostering long-term health and wellness through innovative technology and compassionate care.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -47,10 +47,10 @@
         "row_ULqHwb": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_1000004460.png",
+            "image": "shopify://shop_images/Frame_1000004460.png",
             "caption": "",
             "heading": "Our Doctor-Led Team",
-            "text": "<p>At Norvana, we are proud to have a diverse and dedicated team of professionals who are passionate about health and wellness. Our team includes experienced healthcare providers, AI specialists, fitness experts, and nutritionists who work together to create and deliver our comprehensive weight loss programmes. With a shared commitment to excellence and innovation, our team is dedicated to helping our users achieve their weight loss goals and improve their overall health.<\/p>",
+            "text": "<p>At Norvana, we are proud to have a diverse and dedicated team of professionals who are passionate about health and wellness. Our team includes experienced healthcare providers, AI specialists, fitness experts, and nutritionists who work together to create and deliver our comprehensive weight loss programmes. With a shared commitment to excellence and innovation, our team is dedicated to helping our users achieve their weight loss goals and improve their overall health.</p>",
             "button_label": "",
             "button_link": ""
           }
