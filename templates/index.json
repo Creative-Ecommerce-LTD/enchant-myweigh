@@ -108,8 +108,8 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Background_2.svg",
-            "heading": "Fitness & Nutrition",
-            "details": "<p>Our holistic program is not limited to weight management, but designs the best nutrition and fitness plans for you</p>",
+            "heading": "Fitness + Nutrition Programme",
+            "details": "<p>Includes fitness and nutrition programmes. Our comprehensive approach combines customised workout routines with a personalised nutrition plan to suit your unique needs</p>",
             "bg": "shopify://shop_images/Prism14.png"
           }
         },
