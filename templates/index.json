@@ -90,8 +90,8 @@
           "type": "feature",
           "settings": {
             "icon": "shopify://shop_images/Background.svg",
-            "heading": "15-20%",
-            "details": "<p>Patients using Norvana medication have experienced significant weight loss, averaging 15-20% of their body weight</p>",
+            "heading": "Weight loss medication",
+            "details": "<p>Weight loss medications, when used under medical supervision, have been shown in clinical studies to help patients achieve significant weight reduction. Individual results may vary.</p>",
             "bg": "shopify://shop_images/Prism14.png"
           }
         },
