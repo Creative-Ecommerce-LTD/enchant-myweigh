@@ -119,26 +119,12 @@
         "heading": "You are eligible!",
         "details": "You are just a step away from beginning your weightloss journey. Select a product below to get going."
       }
-    },
-    "shogun_custom_html_3fR7ep": {
-      "type": "shogun-custom-html",
-      "custom_css": [
-        ".faq-section {max-width: 800px; margin: 0 auto;}",
-        ".faq-item {margin-bottom: 10px;}",
-        ".faq-question {width: 100%; background-color: #f7f7f7; border: none; padding: 15px; text-align: left; font-size: 16px; cursor: pointer;}",
-        ".faq-answer {display: none; padding: 15px; background-color: #ffffff; border-top: 1px solid #ddd;}",
-        ".faq-item.active .faq-answer {display: block;}"
-      ],
-      "settings": {
-        "html": "<div class=\"faq-section\">\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">How do you track my progress?</button>\n    <div class=\"faq-answer\">\n      <p>We track your progress through our AI Weightloss Coach, which continuously monitors your health metrics. You’ll be able to log your daily data in the app, and the AI will make adjustments based on your progress, ensuring that you're always moving towards your goals.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">What support is available throughout the program?</button>\n    <div class=\"faq-answer\">\n      <p>Our program provides 24/7 access to AI-powered coaching that offers guidance, tips, and adjustments based on your progress. You also have access to medical support from healthcare professionals.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">How long does it take to see results?</button>\n    <div class=\"faq-answer\">\n      <p>Results vary depending on the individual. Typically, significant changes can be seen within 12 weeks when combining medication with AI-driven coaching.</p>\n    </div>\n  </div>\n</div>\n<script>\ndocument.querySelectorAll('.faq-question').forEach(button => {\n  button.addEventListener('click', () => {\n    const faqItem = button.parentElement;\n    \n    // Close any open FAQ items (optional, if you want to close others when one opens)\n    document.querySelectorAll('.faq-item').forEach(item => {\n      if (item !== faqItem) {\n        item.classList.remove('active');\n      }\n    });\n    \n    // Toggle the clicked FAQ item\n    faqItem.classList.toggle('active');\n  });\n});\n</script>"
-      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
     "custom_font_nAnMbh",
-    "safe_hands_tVzy4F",
-    "shogun_custom_html_3fR7ep"
+    "safe_hands_tVzy4F"
   ]
 }
