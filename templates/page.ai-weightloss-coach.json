@@ -30,13 +30,21 @@
         "text_mrerFH": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to norvana's AI Weightloss Coach, we'll need some information from you to help personalise your plan. Please complete the form below:<\/p>"
+            "text": "<p>Join us in refining a program designed to kickstart your weight loss journey. Your feedback is crucial in helping us create a scientifically backed, effective solution for sustainable weight management. Sign up today to become a Beta tester for Norvana’s AI weightloss coaching  </p><p><em>Note: Our AI coaching program is currently in development. Results may vary, and we value your input in improving our service.</em> </p>"
+          }
+        },
+        "heading_DidDK8": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
         "heading_EHHx6T",
-        "text_mrerFH"
+        "text_mrerFH",
+        "heading_DidDK8"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -47,11 +55,44 @@
         "padding_bottom": 52
       }
     },
-    "custom_liquid_aEArwy": {
-      "type": "custom-liquid",
+    "rich_text_xgTBwz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bFViKa": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it Works",
+            "heading_size": "h1"
+          }
+        },
+        "text_HgfeEf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Sign Up:<br/>Create a personal profile.</strong></p><p><strong>Initial Assessment:<br/>Complete a health questionnaire.</strong></p><p><strong>Personalised Plan:<br/>The AI Weightloss Coach generates a tailored weight loss plan based on your responses.</strong></p><p><strong>Ongoing Support:</strong></p><ul><li><strong>Progress Tracking:<br/>Use the platform to track weight and health metrics.</strong></li><li><strong>Adjustments:<br/>The AI Weightloss Coach helps adjust your plan based on your progress, ensuring continuous improvement.</strong></li></ul>"
+          }
+        },
+        "button_FJYh8X": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start Journey!",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bFViKa",
+        "text_HgfeEf",
+        "button_FJYh8X"
+      ],
       "settings": {
-        "custom_liquid": "<div data-tf-live=\"01J7ZHA45C2B7E7A0CCNT5GT23\"><\/div><script src=\"\/\/embed.typeform.com\/next\/embed.js\"><\/script>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -60,6 +101,6 @@
   "order": [
     "main",
     "rich_text_fcDKcg",
-    "custom_liquid_aEArwy"
+    "rich_text_xgTBwz"
   ]
 }
