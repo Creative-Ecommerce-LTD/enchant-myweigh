@@ -23,8 +23,8 @@
         "mob-padding-bottom": 40,
         "bg": "#f2fcff",
         "subtitle": "Health and wellness tips",
-        "heading": "Regularly updated tips on maintaining a healthy lifestyle.",
-        "details": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore<\/p>",
+        "heading": "Maintaining a healthy lifestyle.",
+        "details": "<p>Maintaining a healthy lifestyle is essential for overall well-being and long-term success in any weight management journey. At Norvana, we believe in a holistic approach to wellness that goes beyond just weight loss. Regular physical activity, balanced nutrition, and mental well-being all contribute to a sustainable, healthy lifestyle. Our team of experts offers ongoing support, providing insights on fitness, nutrition, and daily habits to help you make positive, lasting changes. Whether it's personalized workout plans or mindful eating tips, we're here to guide you every step of the way.</p>",
         "btn": "",
         "link": "",
         "video": ""
@@ -57,7 +57,7 @@
         "show_image": true,
         "show_date": true,
         "show_author": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
