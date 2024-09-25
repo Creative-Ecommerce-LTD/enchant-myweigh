@@ -32,11 +32,23 @@
           "settings": {
             "text": "<p>At Norvana, we're revolutionizing weight management by combining cutting-edge AI technology with the latest medical research. Our approach goes beyond traditional weight loss methods:</p>"
           }
+        },
+        "button_MCWRgV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start your journey",
+            "button_link": "https://76d8e4-2d.myshopify.com/pages/ai-weightloss-medication-information",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_iRNzqC",
-        "text_4fLPgK"
+        "text_4fLPgK",
+        "button_MCWRgV"
       ],
       "settings": {
         "desktop_content_position": "center",
