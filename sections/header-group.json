@@ -68,7 +68,7 @@
             "name": "GroteskNeue-R",
             "custom_font_weight": "none",
             "custom_font_style": "none",
-            "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0890\/8265\/9139\/files\/FKGroteskNeueTrial-Regular.otf?v=1724385477",
+            "custom_font_url": "https://cdn.shopify.com/s/files/1/0890/8265/9139/files/FKGroteskNeueTrial-Regular.otf?v=1724385477",
             "apply_h1": false,
             "apply_h2": false,
             "apply_h3": false,
@@ -86,7 +86,7 @@
             "name": "GroteskNeue-B",
             "custom_font_weight": "none",
             "custom_font_style": "none",
-            "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0890\/8265\/9139\/files\/FKGroteskNeueTrial-Bold.otf?v=1724385463",
+            "custom_font_url": "https://cdn.shopify.com/s/files/1/0890/8265/9139/files/FKGroteskNeueTrial-Bold.otf?v=1724385463",
             "apply_h1": true,
             "apply_h2": true,
             "apply_h3": true,
@@ -119,12 +119,19 @@
         "heading": "You are eligible!",
         "details": "You are just a step away from beginning your weightloss journey. Select a product below to get going."
       }
+    },
+    "shogun_custom_html_3fR7ep": {
+      "type": "shogun-custom-html",
+      "settings": {
+        "html": "<div class=\"faq-section\">\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">How do you track my progress?</button>\n    <div class=\"faq-answer\">\n      <p>We track your progress through our AI Weightloss Coach, which continuously monitors your health metrics. You’ll be able to log your daily data in the app, and the AI will make adjustments based on your progress, ensuring that you're always moving towards your goals.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">What support is available throughout the program?</button>\n    <div class=\"faq-answer\">\n      <p>Our program provides 24/7 access to AI-powered coaching that offers guidance, tips, and adjustments based on your progress. You also have access to medical support from healthcare professionals.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <button class=\"faq-question\">How long does it take to see results?</button>\n    <div class=\"faq-answer\">\n      <p>Results vary depending on the individual. Typically, significant changes can be seen within 12 weeks when combining medication with AI-driven coaching.</p>\n    </div>\n  </div>\n</div>"
+      }
     }
   },
   "order": [
     "announcement-bar",
     "header",
     "custom_font_nAnMbh",
-    "safe_hands_tVzy4F"
+    "safe_hands_tVzy4F",
+    "shogun_custom_html_3fR7ep"
   ]
 }
