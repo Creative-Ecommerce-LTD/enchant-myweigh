@@ -11,13 +11,166 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_ghALxE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iRNzqC": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "h1"
+          }
+        },
+        "text_4fLPgK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Norvana, we're revolutionizing weight management by combining cutting-edge AI technology with the latest medical research. Our approach goes beyond traditional weight loss methods:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iRNzqC",
+        "text_4fLPgK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_9Hb4gd": {
+      "type": "multirow",
+      "blocks": {
+        "row_GcFk8F": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "AI-Driven Habit Formation",
+            "text": "<p>Our innovative AI Weightloss Coach is designed to help you develop lasting healthy habits effortlessly. Instead of relying on short-term willpower, our system guides you towards sustainable lifestyle changes that become second nature.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_T4QRAc": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "<strong>Personalized Plans</strong>",
+            "text": "<p>Using data-driven insights, we craft tailored nutrition and activity recommendations that adapt to your unique needs, preferences, and progress.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_fmXj6G": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "<strong>Comprehensive Support</strong>",
+            "text": "<p>For those who may benefit, our Medication Programme offers medically-backed solutions, carefully integrated with our coaching approach.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_PDqctU": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "<strong>Long-Term Success Focus</strong>",
+            "text": "<p> Whether you choose AI coaching, medication, or both, our goal is to empower you with the tools and knowledge for lasting weight management—without the constant struggle of willpower.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_EVP3V4": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "<strong>Evolving with You</strong>",
+            "text": "<p>As you progress, our AI continuously refines its guidance, ensuring you're always on the most effective path for your individual journey.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_GcFk8F",
+        "row_T4QRAc",
+        "row_fmXj6G",
+        "row_PDqctU",
+        "row_EVP3V4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EFmMUV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HrWAWd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join Today",
+            "heading_size": "h1"
+          }
+        },
+        "text_YgR3hB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join Norvana to experience a weight management approach that works with your lifestyle, not against it. Discover how effortless and sustainable your path to better health can be.</p><p><em>Note: Our AI coaching system is currently in beta, offering you the exciting opportunity to help shape the future of weight management technology.</em></p>"
+          }
+        },
+        "button_k9N6qc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HrWAWd",
+        "text_YgR3hB",
+        "button_k9N6qc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_ghALxE",
+    "multirow_9Hb4gd",
+    "rich_text_EFmMUV"
   ]
 }
