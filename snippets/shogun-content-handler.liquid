@@ -14,7 +14,7 @@ This file can be re-written at any time.
 {% elsif collection %}
   {% assign content = collection %}
 
-{% elsif template == 'index' or template | starts_with: 'index.shogun-66e19f2eac1700ea318d817b' %}
+{% elsif template == 'index' or template %}
   {% assign content = pages['shogun-imported-homepage'] %}
 
   {% if template == 'index' %}
@@ -67,3 +67,14 @@ This file can be re-written at any time.
      {% endcapture %}
 {% endif %}
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% elsif template == 'index' or template | starts_with: 'index.shogun-66e19f2eac1700ea318d817b'
+    %}"
+  to: "{% elsif template == 'index' or template %}"
+  position: 357..400
+{% endcomment %}
